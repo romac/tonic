@@ -18,3 +18,14 @@ members = [
     "tests/extern_path/my_application",
     "tests/integration_tests"
 ]
+
+[patch.crates-io]
+prost        = { git = "https://github.com/danburkert/prost", branch = "master" }
+prost-types  = { git = "https://github.com/danburkert/prost", branch = "master" }
+prost-build  = { git = "https://github.com/danburkert/prost", branch = "master" }
+prost-derive = { git = "https://github.com/danburkert/prost", branch = "master" }
+
+bytes = { git = "https://github.com/tokio-rs/bytes", tag = "v0.6.0" }
+
+hyper     = { git = "https://github.com/hyperium/hyper", branch = "master" }
+http-body = { git = "https://github.com/hyperium/http-body", branch = "master" }
